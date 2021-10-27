@@ -86,7 +86,7 @@ export default function Lista() {
       selector: row => row.url,
       cell: row => (
         <button id={row.url} onClick={(e) => handleSubmit(row.url,e)}>
-          Download
+          Ver
         </button>
       ),
       sorteable:true,
